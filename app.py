@@ -36,7 +36,7 @@ def periodcarerecommender(input_text):
 
 
 def main():
-    st.set_page_config("Leo AI - Period Care Recommender")
+    st.set_page_config("Leo AI - Period Care Recommender 🤖")
     st.header("Get Personalized Care Suggestions with Leo AI 👩‍⚕️")
 
     # User input
@@ -58,7 +58,7 @@ def main():
 
     user_question += st.text_input("Share any issues you’re facing: ", placeholder="Enter your queries here 🤗")
 
-    st.sidebar.title("Leo AI - Your Personal Period Care Assistant")
+    st.sidebar.title("Leo AI - Your Personal Period Care Assistant 🫂")
     st.sidebar.subheader("Ask about menstrual cycle issues and get personalized suggestions! 👩‍⚕️")
 
     if st.button("Get Suggestions"):
